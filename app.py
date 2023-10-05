@@ -22,7 +22,7 @@ from langchain.agents.agent_toolkits import (
 
 #Set APIkey for OpenAI Service
 #Remove this line while working locally to access Codespace secret
-#os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
+os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 apikey = os.environ['OPENAI_API_KEY']
 
 #Create instance of OpenAI LLM
