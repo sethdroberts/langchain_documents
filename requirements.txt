@@ -1,7 +1,7 @@
-langchain
-openai
-streamlit
-tiktoken
-chromadb
-pypdf
-pycryptodome
+langchain==0.0.150
+openai==0.27.6
+streamlit==1.22.0
+tiktoken==0.3.3
+chromadb==0.3.29
+pypdf==3.8.1
+pycryptodome==3.17
